@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minimal Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="dashboard">
+    <header>
+      <h1 id="greeting">Hello.</h1>
+      <div id="clock"></div>
+    </header>
+
+    <section id="search-section">
+      <input id="search-query" type="text" placeholder="Search..." />
+      <button id="search-button">🔍</button>
+      <select id="search-engine">
+        <option value="https://duckduckgo.com/?q=">DuckDuckGo</option>
+        <option value="custom">Custom...</option>
+      </select>
+      <input id="custom-engine-url" placeholder="Enter custom search URL" style="display:none;" />
+    </section>
+
+    <section id="links">
+      <!-- Favorites / Most Visited / Recent will go here -->
+    </section>
+
+    <footer>
+      <button id="toggle-theme">Toggle Light/Dark</button>
+      <button id="export-json">Export Backup</button>
+      <input type="file" id="import-json" />
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

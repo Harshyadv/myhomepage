@@ -1,0 +1,35 @@
+:root {
+  --bg: #1a1b26;
+  --fg: #c0caf5;
+  --accent: #7aa2f7;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#dashboard {
+  max-width: 800px;
+  width: 90%;
+  padding: 1rem;
+}
+
+input, select, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: #2a2e3f;
+  color: var(--fg);
+  border: none;
+}
+
+button:hover {
+  background: var(--accent);
+  cursor: pointer;
+}
