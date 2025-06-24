@@ -1,0 +1,33 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Logs
+*.log
+
+# Node.js dependencies (if you ever use npm for tooling)
+node_modules/
+
+# Build output (if you add a build process)
+dist/
+build/
+
+# VS Code settings
+.codium/
+
+# Other IDE/editor folders
+.idea/
+
+# Ignore environment/config files (if any)
+.env
+
+# Ignore all files in assets except .gitkeep or .gitignore
+assets/*
+!assets/.gitkeep
+!assets/.gitignore
